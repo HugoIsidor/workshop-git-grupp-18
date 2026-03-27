@@ -2,6 +2,7 @@ public class App {
     static void run() {
 
         System.out.println("(1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Exit");
+        if ("2".equals(choice)) System.out.println(Calculator.sub(a, b));
 
         System.out.println("Choice: ");
         String choice = new java.util.Scanner(System.in).nextLine();
