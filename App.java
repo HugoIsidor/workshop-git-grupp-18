@@ -3,5 +3,6 @@ public class App {
         System.out.println("1) Add(\n0) Exit");
         System.out.println("Choice: ");
         String choice = new java.util.Scanner(System.in).nextLine();
+        if ("1".equals(choice)) System.out.println(Calculator.add(0, 0));
     }
 }
