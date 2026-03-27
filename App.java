@@ -11,4 +11,7 @@ public class App {
         double b = Double.parseDouble(new java.util.Scanner(System.in).nextLine());
         System.out.println(Calculator.add(a,b));
     }
+
+    if("3".equals(choise)) System.out.println(Calculator.mul(a, b));
+
 }
